@@ -1,0 +1,387 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #E55473;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.color-primary {
+    color: #E55473;
+}
+
+/* =======================
+Header Section CSS Start
+========================== */
+
+header {
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.header-info {
+    margin-top: 80px;
+}
+
+.header-info-title {
+    color: #272727;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.header-info-desc {
+    color: #27272799;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 25px 0px;
+}
+
+.header-photo {
+    margin-top: 100px;
+}
+
+.header-img {
+    width: 370px;
+}
+
+/* ======================
+Header Section CSS End
+========================= */
+
+/* ======================
+Feature Section CSS Start
+========================= */
+
+.feature-section {
+    height: 100vh;
+    text-align: center;
+}
+
+.feature-title {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.feature-description {
+    padding: 0px 257px;
+    color: #27272799;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.feature-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.feature-item img {
+    width: 170px;
+    padding: 60px;
+    padding-bottom: 0;
+    height: 220px;
+}
+
+.feature-item p {
+    margin-top: 15px;
+    text-decoration: underline;
+    color: #272727;
+}
+
+.item-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.item-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.item-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* ======================
+Feature Section CSS End
+========================= */
+
+
+/* ======================
+Coming Soon Section CSS Start
+========================= */
+.coming-soon {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2.coming-soon-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.coming-soon-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.coming-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.items img {
+    width: 180px;
+    margin-top: 30px;
+}
+
+.items p {
+    margin: 8px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================
+Coming Soon Section CSS End
+========================= */
+
+/* ======================
+Support Section CSS Start
+========================= */
+
+.support-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.support-item img {
+    width: 60px;
+}
+
+.support-item p {
+    color: rgba(39, 39, 39, 0.80);
+    margin-top: 15px;
+}
+
+
+/* ======================
+Support Section CSS End
+========================= */
+
+/* ======================
+Hot Deal Section CSS Start
+========================= */
+
+.hot-deal-section {
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 70vh;
+    margin-bottom: 100px;
+}
+
+.hot-deal-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.hot-deal-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+.hot-deal-photo img {
+    width: 200px;
+    margin-top: 70px;
+}
+
+
+
+/* ======================
+Hot Deal Section CSS End
+========================= */
+
+/* ======================
+Instagram Section CSS Start
+========================= */
+
+.instagram-section {
+    height: 70vh;
+    text-align: center;
+}
+
+.insta-title {
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.insta-desc {
+    padding: 0px 257px;
+    color: #27272799;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.insta-img {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.insta-img img {
+    width: 200px;
+}
+
+/* ======================
+Instagram Section CSS End
+========================= */
+
+
+/* ============================
+Subscribe Section CSS Start
+=============================== */
+
+.subscribe-section {
+    background-image: url("/Flower Asset/Rectangle-9.png");
+    background-size: cover;
+    text-align: center;
+    height: 55vh;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.subscribe-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+p.subscribe-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.subscribe-container input[type="text"] {
+    padding: 15px;
+    width: 450px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.btn-sub {
+    padding: 13px 22px;
+}
+
+/* ============================
+Subscribe Section CSS End
+=============================== */
+
+/* ============================
+Footer Section CSS Start
+=============================== */
+
+footer {
+    height: 50vh;
+    background-color: #111010;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer-desc {
+    color: rgb(193 193 193 / 90%);
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 13px;
+}
+
+/* ============================
+Footer Section CSS End
+=============================== */
+
+
+
+
+
+
+
+
+
+
+
