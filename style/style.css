@@ -163,22 +163,14 @@ h2.coming-soon-title {
 .items img {
     width: 180px;
     margin-top: 30px;
+    border-radius: 5px;
 }
 
 .items p {
+    color: #272727;
     margin: 8px 0px;
+    font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -209,6 +201,7 @@ Support Section CSS Start
 .support-item p {
     color: rgba(39, 39, 39, 0.80);
     margin-top: 15px;
+    font-weight: 800;
 }
 
 
